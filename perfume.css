@@ -1,0 +1,75 @@
+html {
+  width: 1440px;
+  height: 1080px;
+}
+body {
+  background-color: beige;
+  width: 1440px;
+  height: 1080px;
+}
+.body {
+  background-color: white;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 5%;
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+}
+
+img {
+  float: left;
+  margin-right: 30px;
+  width: 270px;
+  height: 400px;
+}
+.side {
+  float: right;
+  width: 200px;
+  height: 400px;
+}
+.right_side {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 350px;
+}
+h2,
+.main {
+  font-size: 14px;
+  color: gray;
+}
+h2 {
+  margin-top: 10px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.origin {
+  font-size: 14px;
+  color: gray;
+  text-decoration: line-through;
+}
+.sale {
+  font-size: 30px;
+  color: green;
+  font-weight: 700;
+}
+button {
+  width: 150px;
+  height: 40px;
+  background-color: green;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.attribution {
+  text-align: center;
+}
+.cart {
+  width: 15;
+  height: 16;
+}
